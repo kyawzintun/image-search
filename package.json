@@ -1,0 +1,39 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "free code camp image search abstraction layer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyawzintun/image-search.git"
+  },
+  "keywords": [
+    "free",
+    "code",
+    "camp",
+    "image",
+    "search",
+    "abstraction",
+    "layer"
+  ],
+  "author": "KZT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyawzintun/image-search/issues"
+  },
+  "homepage": "https://github.com/kyawzintun/image-search#readme",
+  "dependencies": {
+    "cors": "2.8.4",
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "google-images": "2.1.0",
+    "mongoose": "4.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
